@@ -1,0 +1,2392 @@
+{
+  "baseModLoader": {
+    "id": 4060,
+    "gameVersionId": 7346,
+    "minecraftGameVersionId": 52,
+    "forgeVersion": "14.23.5.2838",
+    "name": "forge-14.23.5.2838",
+    "type": 1,
+    "downloadUrl": "https://modloaders.forgecdn.net/647622546/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838.jar",
+    "filename": "forge-1.12.2-14.23.5.2838.jar",
+    "installMethod": 1,
+    "latest": true,
+    "recommended": false,
+    "approved": false,
+    "dateModified": "2019-05-13T17:02:00Z",
+    "mavenVersionString": "net.minecraftforge:forge:1.12.2-14.23.5.2838",
+    "versionJson": "{\r\n  \"id\": \"forge-14.23.5.2838\",\r\n  \"time\": \"2019-05-13T17:02:00Z\",\r\n  \"releaseTime\": \"1960-01-01T07:00:00Z\",\r\n  \"type\": \"release\",\r\n  \"minecraftArguments\": \"--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge\",\r\n  \"minimumLauncherVersion\": 0,\r\n  \"inheritsFrom\": \"1.12.2\",\r\n  \"jar\": \"forge-14.23.5.2838\",\r\n  \"libraries\": [\r\n    {\r\n      \"name\": \"net.minecraftforge:forge:1.12.2-14.23.5.2838\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\"\r\n    },\r\n    {\r\n      \"name\": \"net.minecraft:launchwrapper:1.12\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.ow2.asm:asm-all:5.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.jline:jline:3.5.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": false\r\n    },\r\n    {\r\n      \"name\": \"net.java.dev.jna:jna:4.4.0\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": false\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe.akka:akka-actor_2.11:2.3.3\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"com.typesafe:config:1.2.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-actors-migration_2.11:1.1.0\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-compiler:2.11.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-library:2.11.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-parser-combinators_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-reflect:2.11.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-swing_2.11:1.0.1\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.scala-lang:scala-xml_2.11:1.0.2\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"lzma:lzma:0.0.1\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"net.sf.jopt-simple:jopt-simple:5.0.3\",\r\n      \"serverreq\": true\r\n    },\r\n    {\r\n      \"name\": \"java3d:vecmath:1.5.2\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"net.sf.trove4j:trove4j:3.0.3\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    },\r\n    {\r\n      \"name\": \"org.apache.maven:maven-artifact:3.5.3\",\r\n      \"url\": \"https://modloaders.forgecdn.net/647622546/maven/\",\r\n      \"serverreq\": true,\r\n      \"clientreq\": true\r\n    }\r\n  ],\r\n  \"mainClass\": \"net.minecraft.launchwrapper.Launch\"\r\n}",
+    "librariesInstallLocation": "{0}\\libraries\\net\\minecraftforge\\forge\\1.12.2-14.23.5.2838",
+    "minecraftVersion": "1.12.2",
+    "modLoaderGameVersionId": 7346,
+    "modLoaderGameVersionTypeId": 3,
+    "modLoaderGameVersionStatus": 3,
+    "modLoaderGameVersionTypeStatus": 1,
+    "mcGameVersionId": 6756,
+    "mcGameVersionTypeId": 628,
+    "mcGameVersionStatus": 1,
+    "mcGameVersionTypeStatus": 1
+  },
+  "isUnlocked": true,
+  "javaArgsOverride": null,
+  "javaDirOverride": null,
+  "lastPlayed": "2019-06-09T01:40:33.0156628Z",
+  "manifest": null,
+  "fileDate": "0001-01-01T00:00:00",
+  "installedModpack": null,
+  "projectID": 0,
+  "fileID": 0,
+  "customAuthor": "l33tech",
+  "modpackOverrides": null,
+  "isMemoryOverride": false,
+  "allocatedMemory": 3072,
+  "guid": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+  "gameTypeID": 432,
+  "installPath": "C:\\Users\\John\\Documents\\Curse\\Minecraft\\Instances\\Hypixel Premium BETA S\\",
+  "name": "Hypixel Premium BETA S",
+  "cachedScans": [
+    {
+      "folderName": "ResourceLoader-MC1.12.1-1.5.3.jar",
+      "fingerprint": 699442863,
+      "fileDateHash": 3079104438,
+      "sectionID": 8,
+      "individualFingerprints": [
+        699442863
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:19.6714445Z",
+      "lastWriteTimeUtc": "2018-12-28T01:17:45.0974924Z",
+      "queryTimestamp": "2019-05-25T00:19:54.902269Z",
+      "fileCount": 1,
+      "fileSize": 16612
+    },
+    {
+      "folderName": "FpsReducer-mc1.12.2-1.10.3.jar",
+      "fingerprint": 1996642398,
+      "fileDateHash": 3576247776,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1996642398
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:18.5126237Z",
+      "lastWriteTimeUtc": "2019-02-18T00:41:11.748602Z",
+      "queryTimestamp": "2019-05-25T00:19:54.902269Z",
+      "fileCount": 1,
+      "fileSize": 44033
+    },
+    {
+      "folderName": "New World",
+      "fingerprint": 2720551378,
+      "fileDateHash": 1060987238,
+      "sectionID": 10,
+      "individualFingerprints": [
+        489458212,
+        489458212,
+        568027232,
+        758054953,
+        758054953,
+        758054953,
+        1026597553,
+        1177494531,
+        1463800281,
+        2134375553,
+        2407025706,
+        2510883597,
+        2858527171,
+        2997895593,
+        3119143735,
+        3139252312,
+        3361316544,
+        3526177780,
+        4213863462,
+        4213863462,
+        4213863462
+      ],
+      "status": 1,
+      "timestamp": "2019-05-21T19:36:01.9301617Z",
+      "lastWriteTimeUtc": "2019-05-21T19:32:32.5155828Z",
+      "queryTimestamp": "2019-05-25T00:19:54.902269Z",
+      "fileCount": 11,
+      "fileSize": 0
+    },
+    {
+      "folderName": "ikwid-1.0.2.jar",
+      "fingerprint": 1023182582,
+      "fileDateHash": 3110298160,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1023182582
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:18.8608678Z",
+      "lastWriteTimeUtc": "2019-01-27T20:28:01.3675798Z",
+      "queryTimestamp": "2019-05-25T00:19:54.902269Z",
+      "fileCount": 1,
+      "fileSize": 1989
+    },
+    {
+      "folderName": "Clear Glass Pack 1.11 or 1.12.zip",
+      "fingerprint": 2033698746,
+      "fileDateHash": 1408586973,
+      "sectionID": 9,
+      "individualFingerprints": [
+        2033698746
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:16.3211708Z",
+      "lastWriteTimeUtc": "2018-12-09T20:56:19.899206Z",
+      "queryTimestamp": "2019-05-25T00:19:54.902269Z",
+      "fileCount": 1,
+      "fileSize": 532590
+    },
+    {
+      "folderName": "Zedeyeare PvP v2.9 Fork noEnt.zip",
+      "fingerprint": 1249856136,
+      "fileDateHash": 3995125656,
+      "sectionID": 9,
+      "individualFingerprints": [
+        1249856136
+      ],
+      "status": 1,
+      "timestamp": "2019-05-21T19:36:58.8900096Z",
+      "lastWriteTimeUtc": "2019-05-21T19:36:58.8900096Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9032846Z",
+      "fileCount": 1,
+      "fileSize": 35592089
+    },
+    {
+      "folderName": "foamfix-0.10.5-1.12.2.jar",
+      "fingerprint": 3180889627,
+      "fileDateHash": 764237241,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3180889627
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T15:04:22.0212394Z",
+      "lastWriteTimeUtc": "2019-05-18T14:56:08.0758163Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9032846Z",
+      "fileCount": 1,
+      "fileSize": 211210
+    },
+    {
+      "folderName": "ClearPumpkin+.zip",
+      "fingerprint": 900711822,
+      "fileDateHash": 2164990974,
+      "sectionID": 9,
+      "individualFingerprints": [
+        900711822
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:16.3524221Z",
+      "lastWriteTimeUtc": "2019-02-13T16:31:46.9497414Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9032846Z",
+      "fileCount": 1,
+      "fileSize": 19410
+    },
+    {
+      "folderName": "TipTheScales-1.12.2-1.0.3.jar",
+      "fingerprint": 1342116035,
+      "fileDateHash": 1527571099,
+      "sectionID": 6,
+      "individualFingerprints": [
+        1342116035
+      ],
+      "status": 1,
+      "timestamp": "2019-03-17T18:22:19.0044641Z",
+      "lastWriteTimeUtc": "2019-01-27T20:28:02.6755099Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9032846Z",
+      "fileCount": 1,
+      "fileSize": 11518
+    },
+    {
+      "folderName": "Zedeyeare PvP v2.9 - Fork  v2.zip",
+      "fingerprint": 4230562564,
+      "fileDateHash": 1947041950,
+      "sectionID": 9,
+      "individualFingerprints": [
+        4230562564
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T15:37:26.2818095Z",
+      "lastWriteTimeUtc": "2019-05-18T15:36:50.1221266Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9032846Z",
+      "fileCount": 1,
+      "fileSize": 24668351
+    },
+    {
+      "folderName": "randomtweaks-1.12.2-2.4.3.2.jar",
+      "fingerprint": 589654645,
+      "fileDateHash": 4260084931,
+      "sectionID": 6,
+      "individualFingerprints": [
+        589654645
+      ],
+      "status": 1,
+      "timestamp": "2019-03-17T18:22:18.4839742Z",
+      "lastWriteTimeUtc": "2019-02-18T00:06:51.7004771Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9032846Z",
+      "fileCount": 1,
+      "fileSize": 174184
+    },
+    {
+      "folderName": "reauth-3.6.0.jar",
+      "fingerprint": 1809264525,
+      "fileDateHash": 2347691772,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1809264525
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:19.5173493Z",
+      "lastWriteTimeUtc": "2019-01-27T20:28:00.1397072Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9032846Z",
+      "fileCount": 1,
+      "fileSize": 30446
+    },
+    {
+      "folderName": "Durability+Show-1.12-5.0.0.jar",
+      "fingerprint": 2070099434,
+      "fileDateHash": 2814974317,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2070099434
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:18.3274922Z",
+      "lastWriteTimeUtc": "2019-03-17T18:21:45.4085311Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 25177
+    },
+    {
+      "folderName": "randomtweaks-1.12.2-2.5.0.5.jar",
+      "fingerprint": 2676894920,
+      "fileDateHash": 540582302,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2676894920
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:19.0349912Z",
+      "lastWriteTimeUtc": "2019-05-18T14:34:45.2926351Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 258298
+    },
+    {
+      "folderName": "Photon Frost's Clear Gui.zip",
+      "fingerprint": 459787930,
+      "fileDateHash": 4231286471,
+      "sectionID": 9,
+      "individualFingerprints": [
+        459787930
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:16.3836599Z",
+      "lastWriteTimeUtc": "2018-12-09T20:56:21.0875262Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 544342
+    },
+    {
+      "folderName": "itlt-1.12-1.0.0.jar",
+      "fingerprint": 1280263856,
+      "fileDateHash": 3113491582,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1280263856
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:18.8628698Z",
+      "lastWriteTimeUtc": "2019-01-27T20:27:59.6143328Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 14693
+    },
+    {
+      "folderName": "CustomMainMenu-MC1.12.2-2.0.9.jar",
+      "fingerprint": 3309587501,
+      "fileDateHash": 695966217,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3309587501
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:18.0082797Z",
+      "lastWriteTimeUtc": "2018-12-28T01:17:44.9965511Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 177791
+    },
+    {
+      "folderName": "MinecraftFont.zip",
+      "fingerprint": 2901789297,
+      "fileDateHash": 1330963010,
+      "sectionID": 9,
+      "individualFingerprints": [
+        2901789297
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:16.3680332Z",
+      "lastWriteTimeUtc": "2019-02-17T20:18:03.1627926Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 46685
+    },
+    {
+      "folderName": "Zedeyeare PvP v2.9 - Fork.zip",
+      "fingerprint": 1385251204,
+      "fileDateHash": 762478290,
+      "sectionID": 9,
+      "individualFingerprints": [
+        1385251204
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T15:25:51.9162127Z",
+      "lastWriteTimeUtc": "2019-05-18T15:25:51.9005871Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 35621188
+    },
+    {
+      "folderName": "ClientTweaks_1.12.2-3.1.11.jar",
+      "fingerprint": 3397426670,
+      "fileDateHash": 2978466406,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3397426670
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:17.2042129Z",
+      "lastWriteTimeUtc": "2019-01-27T20:28:06.2690644Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 30515
+    },
+    {
+      "folderName": "TipTheScales-1.12.2-1.0.4.jar",
+      "fingerprint": 3931414915,
+      "fileDateHash": 3037417418,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3931414915
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:19.7765165Z",
+      "lastWriteTimeUtc": "2019-04-03T18:59:14.2353875Z",
+      "queryTimestamp": "2019-05-25T00:19:54.9042705Z",
+      "fileCount": 1,
+      "fileSize": 11641
+    },
+    {
+      "folderName": "BetterFps-1.4.8.jar",
+      "fingerprint": 3051920250,
+      "fileDateHash": 3460582981,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3051920250
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:16.9114003Z",
+      "lastWriteTimeUtc": "2019-01-27T20:28:01.2254804Z",
+      "queryTimestamp": "2019-05-25T00:19:54.905286Z",
+      "fileCount": 1,
+      "fileSize": 155196
+    },
+    {
+      "folderName": "AppleSkin-mc1.12-1.0.9.jar",
+      "fingerprint": 1708065614,
+      "fileDateHash": 2171611975,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1708065614
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:16.9103998Z",
+      "lastWriteTimeUtc": "2019-03-17T18:23:47.8122864Z",
+      "queryTimestamp": "2019-05-25T00:19:54.905286Z",
+      "fileCount": 1,
+      "fileSize": 32317
+    },
+    {
+      "folderName": "Controlling-3.0.6.jar",
+      "fingerprint": 2220369187,
+      "fileDateHash": 4194433708,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2220369187
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:17.3953476Z",
+      "lastWriteTimeUtc": "2019-01-27T20:28:01.7148286Z",
+      "queryTimestamp": "2019-05-25T00:19:54.905286Z",
+      "fileCount": 1,
+      "fileSize": 26034
+    },
+    {
+      "folderName": "VanillaFix-1.0.10-99.jar",
+      "fingerprint": 3241108399,
+      "fileDateHash": 1373298972,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3241108399
+      ],
+      "status": 1,
+      "timestamp": "2019-05-21T19:36:01.633283Z",
+      "lastWriteTimeUtc": "2019-05-21T19:25:55.0329406Z",
+      "queryTimestamp": "2019-05-25T00:19:54.905286Z",
+      "fileCount": 1,
+      "fileSize": 1117860
+    },
+    {
+      "folderName": "Better Vanilla 1.7.1 [1.12].zip",
+      "fingerprint": 878172761,
+      "fileDateHash": 1314414683,
+      "sectionID": 9,
+      "individualFingerprints": [
+        878172761
+      ],
+      "status": 1,
+      "timestamp": "2019-05-18T14:39:16.2828533Z",
+      "lastWriteTimeUtc": "2018-12-09T20:56:19.6713359Z",
+      "queryTimestamp": "2019-05-25T00:19:54.905286Z",
+      "fileCount": 1,
+      "fileSize": 2408763
+    }
+  ],
+  "isValid": true,
+  "lastPreviousMatchUpdate": "2019-05-25T00:19:55.1674589Z",
+  "isEnabled": true,
+  "isPinned": false,
+  "gameVersion": "1.12.2",
+  "preferenceAlternateFile": false,
+  "preferenceAutoInstallUpdates": false,
+  "preferenceQuickDeleteLibraries": true,
+  "preferenceDeleteSavedVariables": true,
+  "preferenceProcessFileCommands": true,
+  "preferenceReleaseType": 1,
+  "syncProfile": {
+    "PreferenceEnabled": false,
+    "PreferenceAutoSync": true,
+    "PreferenceAutoDelete": false,
+    "PreferenceBackupSavedVariables": false,
+    "GameInstanceGuid": "00000000-0000-0000-0000-000000000000",
+    "SyncProfileID": 0,
+    "SavedVariablesProfile": null,
+    "LastSyncDate": "0001-01-01T00:00:00"
+  },
+  "preferenceShowAddOnInfo": true,
+  "installDate": "2019-05-18T14:39:06.6143481Z",
+  "installedAddons": [
+    {
+      "addonID": 258205,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2715934,
+        "displayName": "RandomTweaks 1.12.2-2.5.0.6",
+        "fileName": "randomtweaks-1.12.2-2.5.0.6.jar",
+        "fileDate": "2019-05-26T07:10:18.413Z",
+        "fileLength": 258358,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/934/randomtweaks-1.12.2-2.5.0.6.jar",
+        "isAlternate": false,
+        "alternateFileId": 2715935,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1657759470,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3632900265,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1607026718,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 636739469,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 132538242,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 549688586,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "randomtweaks-1.12.2-2.5.0.6.jar"
+      },
+      "dateInstalled": "2019-05-10T16:11:52.4469756Z",
+      "dateUpdated": "2019-05-27T18:12:18.653888Z",
+      "dateLastUpdateAttempted": "2019-05-27T18:12:18.653888Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 286633,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2618756,
+        "displayName": "Clear Glass Pack 1.11 or 1.12",
+        "fileName": "Clear Glass Pack 1.11 or 1.12.zip",
+        "fileDate": "2018-09-19T17:06:39.997Z",
+        "fileLength": 532590,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2618/756/Clear Glass Pack 1.11 or 1.12.zip",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "Changelog.txt",
+            "fingerprint": 708302339,
+            "type": 3
+          },
+          {
+            "foldername": "credits.png",
+            "fingerprint": 626001379,
+            "type": 3
+          },
+          {
+            "foldername": "Credits.txt",
+            "fingerprint": 1244772254,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2325834861,
+            "type": 3
+          },
+          {
+            "foldername": "pack.png",
+            "fingerprint": 2584373154,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3128187430,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2033698746,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.11",
+          "1.11.1",
+          "1.11.2",
+          "1.11-Snapshot",
+          "1.12.2",
+          "1.12-Snapshot"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011",
+            "gameVersion": "1.11",
+            "gameVersionReleaseDate": "2016-11-14T06:00:00Z",
+            "gameVersionName": "1.11"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011.0000000001",
+            "gameVersion": "1.11.1",
+            "gameVersionReleaseDate": "2016-12-20T06:00:00Z",
+            "gameVersionName": "1.11.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011.0000000002",
+            "gameVersion": "1.11.2",
+            "gameVersionReleaseDate": "2016-12-21T06:00:00Z",
+            "gameVersionName": "1.11.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011",
+            "gameVersion": "1.11",
+            "gameVersionReleaseDate": "2016-08-10T05:00:00Z",
+            "gameVersionName": "1.11-Snapshot"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-02-28T06:00:00Z",
+            "gameVersionName": "1.12-Snapshot"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 3,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1449040,
+        "projectId": 286633,
+        "packageFingerprintId": 265737990,
+        "gameVersionDateReleased": "2016-08-10T05:00:00Z",
+        "gameVersionMappingId": 1667668,
+        "gameVersionId": 6239,
+        "gameId": 432,
+        "FileNameOnDisk": "Clear Glass Pack 1.11 or 1.12.zip"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.2143605Z",
+      "dateUpdated": "2018-05-18T14:39:20.2143605Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 250398,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2522248,
+        "displayName": "Controlling-3.0.6",
+        "fileName": "Controlling-3.0.6.jar",
+        "fileDate": "2018-01-20T15:47:57.317Z",
+        "fileLength": 26034,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2522/248/Controlling-3.0.6.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4215417150,
+            "type": 3
+          },
+          {
+            "foldername": "us",
+            "fingerprint": 1689831655,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 296153556,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1482442575,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2220369187,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1334585,
+        "projectId": 250398,
+        "packageFingerprintId": 221276660,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1513497,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "Controlling-3.0.6.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 229876,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2483393,
+        "displayName": "v1.4.8",
+        "fileName": "BetterFps-1.4.8.jar",
+        "fileDate": "2017-09-24T01:00:21.883Z",
+        "fileLength": 155196,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2483/393/BetterFps-1.4.8.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3441204741,
+            "type": 3
+          },
+          {
+            "foldername": "guichaguri",
+            "fingerprint": 2685540567,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2568502241,
+            "type": 3
+          },
+          {
+            "foldername": "betterfps.srg",
+            "fingerprint": 2108445252,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3051920250,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 667,
+        "projectId": 229876,
+        "packageFingerprintId": 202826016,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1441912,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "BetterFps-1.4.8.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 248787,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2496585,
+        "displayName": "AppleSkin-mc1.12-1.0.9.jar",
+        "fileName": "AppleSkin-mc1.12-1.0.9.jar",
+        "fileDate": "2017-11-03T00:07:53.083Z",
+        "fileLength": 32317,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2496/585/AppleSkin-mc1.12-1.0.9.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "betterwithmods",
+            "fingerprint": 1637584094,
+            "type": 3
+          },
+          {
+            "foldername": "squeek",
+            "fingerprint": 1048292493,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3447702788,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4000864019,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2520837536,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1708065614,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 692731,
+        "projectId": 248787,
+        "packageFingerprintId": 208266674,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameVersionMappingId": 1467779,
+        "gameVersionId": 6580,
+        "gameId": 432,
+        "FileNameOnDisk": "AppleSkin-mc1.12-1.0.9.jar"
+      },
+      "dateInstalled": "2019-05-10T16:11:52.4489754Z",
+      "dateUpdated": "2018-05-10T16:11:52.4489754Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 232791,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2432201,
+        "displayName": "itlt-1.12-1.0.0.jar",
+        "fileName": "itlt-1.12-1.0.0.jar",
+        "fileDate": "2017-06-11T10:43:50.793Z",
+        "fileLength": 14693,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2432/201/itlt-1.12-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "dk",
+            "fingerprint": 1616508387,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 835461615,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1280263856,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 131344,
+        "projectId": 232791,
+        "packageFingerprintId": 181021030,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameVersionMappingId": 1353289,
+        "gameVersionId": 6580,
+        "gameId": 432,
+        "FileNameOnDisk": "itlt-1.12-1.0.0.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 226406,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2638282,
+        "displayName": "CustomMainMenu-MC1.12.2-2.0.9.jar",
+        "fileName": "CustomMainMenu-MC1.12.2-2.0.9.jar",
+        "fileDate": "2018-11-15T15:01:56.787Z",
+        "fileLength": 177791,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2638/282/CustomMainMenu-MC1.12.2-2.0.9.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3274517062,
+            "type": 3
+          },
+          {
+            "foldername": "lumien",
+            "fingerprint": 280215516,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 105512192,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1659821724,
+            "type": 3
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 210089498,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3309587501,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1472332,
+        "projectId": 226406,
+        "packageFingerprintId": 275617245,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1698934,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "CustomMainMenu-MC1.12.2-2.0.9.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 226099,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2432683,
+        "displayName": "[1.12] Durability Show 5.0.0",
+        "fileName": "Durability Show-1.12-5.0.0.jar",
+        "fileDate": "2017-06-11T23:29:05.243Z",
+        "fileLength": 25177,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2432/683/Durability Show-1.12-5.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 2432684,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2491306719,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 375790259,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 131317679,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2070099434,
+        "gameVersion": [
+          "1.12"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 64198,
+        "projectId": 226099,
+        "packageFingerprintId": 181169721,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1354208,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "Durability+Show-1.12-5.0.0.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 304530,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2626122,
+        "displayName": "ClearPumpkin+ V1.0",
+        "fileName": "ClearPumpkin+.zip",
+        "fileDate": "2018-10-09T13:25:17.797Z",
+        "fileLength": 19410,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2626/122/ClearPumpkin+.zip",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "pack.png",
+            "fingerprint": 169482061,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1661705989,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2575786811,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 900711822,
+        "gameVersion": [
+          "1.13.1",
+          "1.13",
+          "1.12.2",
+          "1.13-Snapshot"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000013.0000000001",
+            "gameVersion": "1.13.1",
+            "gameVersionReleaseDate": "2018-08-22T00:00:00Z",
+            "gameVersionName": "1.13.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000013",
+            "gameVersion": "1.13",
+            "gameVersionReleaseDate": "2018-07-18T00:00:00Z",
+            "gameVersionName": "1.13"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000013",
+            "gameVersion": "1.13",
+            "gameVersionReleaseDate": "2017-11-23T06:00:00Z",
+            "gameVersionName": "1.13-Snapshot"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 3,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1457666,
+        "projectId": 304530,
+        "packageFingerprintId": 269224130,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1680216,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "FileNameOnDisk": "ClearPumpkin+.zip"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.2143605Z",
+      "dateUpdated": "2018-05-18T14:39:20.2143605Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 278645,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2593792,
+        "displayName": "Better Vanilla 1.7.1 [1.12].zip",
+        "fileName": "Better Vanilla 1.7.1 [1.12].zip",
+        "fileDate": "2018-07-28T13:35:40.263Z",
+        "fileLength": 2408763,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2593/792/Better Vanilla 1.7.1 [1.12].zip",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 2516353172,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3589967040,
+            "type": 3
+          },
+          {
+            "foldername": "pack.png",
+            "fingerprint": 4036793606,
+            "type": 3
+          },
+          {
+            "foldername": "readme (credits).txt",
+            "fingerprint": 2815697481,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 878172761,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.11",
+          "1.11.1",
+          "1.11.2",
+          "1.11-Snapshot",
+          "1.12.2",
+          "1.12-Snapshot"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011",
+            "gameVersion": "1.11",
+            "gameVersionReleaseDate": "2016-11-14T06:00:00Z",
+            "gameVersionName": "1.11"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011.0000000001",
+            "gameVersion": "1.11.1",
+            "gameVersionReleaseDate": "2016-12-20T06:00:00Z",
+            "gameVersionName": "1.11.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011.0000000002",
+            "gameVersion": "1.11.2",
+            "gameVersionReleaseDate": "2016-12-21T06:00:00Z",
+            "gameVersionName": "1.11.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011",
+            "gameVersion": "1.11",
+            "gameVersionReleaseDate": "2016-08-10T05:00:00Z",
+            "gameVersionName": "1.11-Snapshot"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-02-28T06:00:00Z",
+            "gameVersionName": "1.12-Snapshot"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 3,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1420263,
+        "projectId": 278645,
+        "packageFingerprintId": 255296190,
+        "gameVersionDateReleased": "2016-08-10T05:00:00Z",
+        "gameVersionMappingId": 1631149,
+        "gameVersionId": 6239,
+        "gameId": 432,
+        "FileNameOnDisk": "Better Vanilla 1.7.1 [1.12].zip"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.2163613Z",
+      "dateUpdated": "2018-05-18T14:39:20.2163613Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 289436,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2537199,
+        "displayName": "Photon Frost's Clear Gui.zip",
+        "fileName": "Photon Frost's Clear Gui.zip",
+        "fileDate": "2018-03-03T22:18:49.957Z",
+        "fileLength": 544342,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2537/199/Photon Frost's Clear Gui.zip",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 1169635215,
+            "type": 3
+          },
+          {
+            "foldername": "Credits+Info.txt",
+            "fingerprint": 1732328426,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1257348017,
+            "type": 3
+          },
+          {
+            "foldername": "pack.png",
+            "fingerprint": 1945772800,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 459787930,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2",
+          "1.12-Snapshot"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-02-28T06:00:00Z",
+            "gameVersionName": "1.12-Snapshot"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 3,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 2,
+        "renderCacheId": 1353301,
+        "projectId": 289436,
+        "packageFingerprintId": 228564826,
+        "gameVersionDateReleased": "2017-02-28T06:00:00Z",
+        "gameVersionMappingId": 1540540,
+        "gameVersionId": 6514,
+        "gameId": 432,
+        "FileNameOnDisk": "Photon Frost's Clear Gui.zip"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.2143605Z",
+      "dateUpdated": "2018-05-18T14:39:20.2143605Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 292785,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2639533,
+        "displayName": "VanillaFix-1.0.10-99.jar",
+        "fileName": "VanillaFix-1.0.10-99.jar",
+        "fileDate": "2018-11-19T18:44:57.183Z",
+        "fileLength": 1117860,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2639/533/VanillaFix-1.0.10-99.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 24978714,
+            "type": 0
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 2935610821,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4257585702,
+            "type": 0
+          },
+          {
+            "foldername": "dst_root_ca_x3.jks",
+            "fingerprint": 1567663994,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2221331171,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.vanillafix.bugs.json",
+            "fingerprint": 1572877952,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.vanillafix.crashes.json",
+            "fingerprint": 2448802141,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.vanillafix.modsupport.json",
+            "fingerprint": 3089231482,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.vanillafix.profiler.json",
+            "fingerprint": 3040386461,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.vanillafix.textures.json",
+            "fingerprint": 1592007373,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.vanillafix.textures.modsupport.json",
+            "fingerprint": 3519259910,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 361536539,
+            "type": 0
+          },
+          {
+            "foldername": "mixins.vanillafix.refmap.json",
+            "fingerprint": 2018976550,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3241108399,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "VanillaFix-1.0.10-99.jar"
+      },
+      "dateInstalled": "2019-05-21T19:25:55.0349415Z",
+      "dateUpdated": "2019-05-21T19:25:55.6775978Z",
+      "dateLastUpdateAttempted": "2019-05-21T19:25:55.6775978Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 278494,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2695388,
+        "displayName": "FoamFix 0.10.5 (1.12.2)",
+        "fileName": "foamfix-0.10.5-1.12.2.jar",
+        "fileDate": "2019-04-04T12:36:27.883Z",
+        "fileLength": 211210,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2695/388/foamfix-0.10.5-1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2994967269,
+            "type": 0
+          },
+          {
+            "foldername": "foamfix_at.cfg",
+            "fingerprint": 2590909010,
+            "type": 0
+          },
+          {
+            "foldername": "foamfix_runtime_at.cfg",
+            "fingerprint": 2504249573,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4069919274,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3033825429,
+            "type": 0
+          },
+          {
+            "foldername": "pl",
+            "fingerprint": 2850971748,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3180889627,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameId": 0,
+        "FileNameOnDisk": "foamfix-0.10.5-1.12.2.jar"
+      },
+      "dateInstalled": "2019-05-18T14:56:08.0758163Z",
+      "dateUpdated": "2019-05-18T14:56:08.1902699Z",
+      "dateLastUpdateAttempted": "2019-05-18T14:56:08.1902699Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 280294,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2627308,
+        "displayName": "FpsReducer-mc1.12.2-1.10.3.jar",
+        "fileName": "FpsReducer-mc1.12.2-1.10.3.jar",
+        "fileDate": "2018-10-13T06:44:50.657Z",
+        "fileLength": 44033,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2627/308/FpsReducer-mc1.12.2-1.10.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1196118774,
+            "type": 3
+          },
+          {
+            "foldername": "bre",
+            "fingerprint": 2613557645,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2657025551,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2381297431,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2639982412,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1996642398,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1459077,
+        "projectId": 280294,
+        "packageFingerprintId": 269902077,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1681917,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "FileNameOnDisk": "FpsReducer-mc1.12.2-1.10.3.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 226447,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2477566,
+        "displayName": "ResourceLoader-MC1.12.1-1.5.3.jar",
+        "fileName": "ResourceLoader-MC1.12.1-1.5.3.jar",
+        "fileDate": "2017-09-08T21:46:12.243Z",
+        "fileLength": 16612,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2477/566/ResourceLoader-MC1.12.1-1.5.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3736164344,
+            "type": 3
+          },
+          {
+            "foldername": "lumien",
+            "fingerprint": 2008168392,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1893016861,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 699442863,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 35724,
+        "projectId": 226447,
+        "packageFingerprintId": 200829077,
+        "gameVersionDateReleased": "2006-12-11T00:00:00Z",
+        "gameVersionMappingId": 1431984,
+        "gameVersionId": 4456,
+        "gameId": 432,
+        "FileNameOnDisk": "ResourceLoader-MC1.12.1-1.5.3.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 237701,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2560638,
+        "displayName": "ReAuth-3.6.0 1.12",
+        "fileName": "reauth-3.6.0.jar",
+        "fileDate": "2018-05-10T19:37:49.493Z",
+        "fileLength": 30446,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2560/638/reauth-3.6.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1007001011,
+            "type": 3
+          },
+          {
+            "foldername": "technicianlp",
+            "fingerprint": 982598060,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1933681648,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1809264525,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1381831,
+        "projectId": 237701,
+        "packageFingerprintId": 240386628,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1580222,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "reauth-3.6.0.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 271492,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2469710,
+        "displayName": "IKWID 1.0.2",
+        "fileName": "ikwid-1.0.2.jar",
+        "fileDate": "2017-08-27T11:44:17.247Z",
+        "fileLength": 1989,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2469/710/ikwid-1.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 729030114,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 503667797,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1023182582,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 99077,
+        "projectId": 271492,
+        "packageFingerprintId": 199120435,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameVersionMappingId": 1419730,
+        "gameVersionId": 6580,
+        "gameId": 432,
+        "FileNameOnDisk": "ikwid-1.0.2.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 253792,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2573588,
+        "displayName": "MinecraftFont v2.0.3",
+        "fileName": "MinecraftFont.zip",
+        "fileDate": "2018-06-17T09:34:37.61Z",
+        "fileLength": 46685,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2573/588/MinecraftFont.zip",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 2209409424,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1616474001,
+            "type": 3
+          },
+          {
+            "foldername": "pack.png",
+            "fingerprint": 3059784680,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2901789297,
+        "gameVersion": [
+          "1.10-Snapshot",
+          "1.12",
+          "1.12.1",
+          "1.10.2",
+          "1.11",
+          "1.10.1",
+          "1.10",
+          "1.11.1",
+          "1.11.2",
+          "1.11-Snapshot",
+          "1.12.2",
+          "1.12-Snapshot",
+          "1.13-Snapshot"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000010",
+            "gameVersion": "1.10",
+            "gameVersionReleaseDate": "2016-06-06T05:00:00Z",
+            "gameVersionName": "1.10-Snapshot"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000010.0000000002",
+            "gameVersion": "1.10.2",
+            "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+            "gameVersionName": "1.10.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011",
+            "gameVersion": "1.11",
+            "gameVersionReleaseDate": "2016-11-14T06:00:00Z",
+            "gameVersionName": "1.11"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000010.0000000001",
+            "gameVersion": "1.10.1",
+            "gameVersionReleaseDate": "2016-06-22T05:00:00Z",
+            "gameVersionName": "1.10.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000010",
+            "gameVersion": "1.10",
+            "gameVersionReleaseDate": "2016-06-08T05:00:00Z",
+            "gameVersionName": "1.10"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011.0000000001",
+            "gameVersion": "1.11.1",
+            "gameVersionReleaseDate": "2016-12-20T06:00:00Z",
+            "gameVersionName": "1.11.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011.0000000002",
+            "gameVersion": "1.11.2",
+            "gameVersionReleaseDate": "2016-12-21T06:00:00Z",
+            "gameVersionName": "1.11.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000011",
+            "gameVersion": "1.11",
+            "gameVersionReleaseDate": "2016-08-10T05:00:00Z",
+            "gameVersionName": "1.11-Snapshot"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-02-28T06:00:00Z",
+            "gameVersionName": "1.12-Snapshot"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000013",
+            "gameVersion": "1.13",
+            "gameVersionReleaseDate": "2017-11-23T06:00:00Z",
+            "gameVersionName": "1.13-Snapshot"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 3,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1397222,
+        "projectId": 253792,
+        "packageFingerprintId": 247732405,
+        "gameVersionDateReleased": "2016-06-06T05:00:00Z",
+        "gameVersionMappingId": 1600808,
+        "gameVersionId": 6143,
+        "gameId": 432,
+        "FileNameOnDisk": "MinecraftFont.zip"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.2153604Z",
+      "dateUpdated": "2018-05-18T14:39:20.2153604Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 282313,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2689835,
+        "displayName": "TipTheScales-1.12.2-1.0.4",
+        "fileName": "TipTheScales-1.12.2-1.0.4.jar",
+        "fileDate": "2019-03-20T23:57:18.403Z",
+        "fileLength": 11641,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2689/835/TipTheScales-1.12.2-1.0.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 94308169,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3238527338,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2066870056,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3931414915,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1534590,
+        "projectId": 282313,
+        "packageFingerprintId": 301983636,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1776354,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "TipTheScales-1.12.2-1.0.4.jar"
+      },
+      "dateInstalled": "2019-05-10T16:11:52.4499769Z",
+      "dateUpdated": "2018-05-10T16:11:52.4499769Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 251407,
+      "gameInstanceID": "63004ee6-5f1e-4c51-be36-cb2e13dc3593",
+      "installedFile": {
+        "id": 2624712,
+        "displayName": "ClientTweaks_1.12.2-3.1.11.jar",
+        "fileName": "ClientTweaks_1.12.2-3.1.11.jar",
+        "fileDate": "2018-10-05T20:38:44.92Z",
+        "fileLength": 30515,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2624/712/ClientTweaks_1.12.2-3.1.11.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1567127771,
+            "type": 3
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 4007455539,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2630312497,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2399843960,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3397426670,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1455986,
+        "projectId": 251407,
+        "packageFingerprintId": 268472229,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1677938,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "FileNameOnDisk": "ClientTweaks_1.12.2-3.1.11.jar"
+      },
+      "dateInstalled": "2019-05-18T14:39:20.6283802Z",
+      "dateUpdated": "2018-05-18T14:39:20.6283802Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    }
+  ],
+  "isMigrated": false,
+  "preferenceUploadProfile": false
+}

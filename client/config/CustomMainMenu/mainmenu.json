@@ -1,0 +1,159 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "hype:menu/hypixel.png",
+            "posX" : -137,
+            "posY" : 10,
+            "width" : 256,
+            "height" : 128,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "hype:menu/clear.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 128,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+
+        "hypixel":
+        {
+            "text" : "Play Hypixel",
+            "posX" : -75,
+            "posY" : 60,
+            "width" : 150,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "hypixel.net"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Play on other servers",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Hypixel Premium by L33Tech - 2019",
+            "hoverText" : "§n Minecraft Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "forge":
+        {
+            "text" : "Powered by Forge",
+            "posX" : 1,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:hype/splash/hsp.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}

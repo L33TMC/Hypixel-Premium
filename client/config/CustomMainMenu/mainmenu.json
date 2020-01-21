@@ -113,9 +113,9 @@
     {
         "mojang":
         {
-            "text" : "Hypixel Premium by L33Tech - 2019",
+            "text" : "Hypixel Premium by L33Tech - 2020",
             "hoverText" : "§n Minecraft Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
+            "posX" : -179,
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_right",
@@ -129,7 +129,7 @@
         "forge":
         {
             "text" : "Powered by Forge",
-            "posX" : 1,
+            "posX" : 2,
             "posY" : -10,
             "color" : -1,
             "alignment" : "bottom_left"

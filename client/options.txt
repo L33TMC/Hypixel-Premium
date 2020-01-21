@@ -6,16 +6,16 @@ gamma:100.0
 saturation:0.0
 renderDistance:8
 guiScale:0
-particles:1
+particles:2
 bobView:true
 anaglyph3d:false
-maxFps:260
+maxFps:100
 fboEnable:true
 difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:false
-resourcePacks:["Better Vanilla 1.7.1 [1.12].zip","Zedeyeare PvP v2.9 - Fork.zip","Photon Frost\u0027s Clear Gui.zip","ClearPumpkin+.zip","Clear Glass Pack 1.11 or 1.12.zip","MinecraftFont.zip"]
+resourcePacks:["Better Vanilla 1.7.1 [1.12].zip","Clear Glass Pack 1.11 or 1.12.zip","MinecraftFont.zip","Zedeyeare PvP v2.9 - Fork  v2.zip","Photon Frost\u0027s Clear Gui.zip","Clear Vision 1.1.zip","L33TGUI 1.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:HarmonyHollowSMP.playat.ch
 lang:en_us
@@ -27,7 +27,7 @@ chatOpacity:1.0
 snooperEnabled:false
 fullscreen:false
 enableVsync:true
-useVbo:true
+useVbo:false
 hideServerAddress:false
 advancedItemTooltips:true
 pauseOnLostFocus:true
